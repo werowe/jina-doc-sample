@@ -45,5 +45,5 @@ This constructor will act as an single `indexer`. Some points to note:
 * The `embedding` vector can coming from any upstream `encoder`.
 * The response message of the pod the corresponding `binary` information is stored inthe key-value index. 
 
-This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (useful?  relevnt?) data and fields from those documents.
+This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields from those documents.
 
