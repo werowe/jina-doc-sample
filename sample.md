@@ -1,13 +1,24 @@
 ### Common designs patterns
-jina is a flexible AI powered neural search framework. It is designed to enable any pattern that can be framed as a neural search problem.
+jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (To do:  define **pattern**.)
 
-However, there are basic basic common patterns that show when developping search solutions with jina and here is a recopilation of some of them below for your detailed reference when building a neural search with JINA.
+There are basic basic common patterns that show when developing search solutions with jina. Here is a list of some of them.
 
 
 - CompoundIndexer (Vector + KV Indexers):
 
-To develop neural search applications, it is of useful to use a `CompoundIndexer` in same `Pod` for both `index` and `query` flows.
-The following `json` file shows an examples of this pattern.
+To develop neural search applications, you can use a `CompoundIndexer` in same `Pod` for both `index` and `query` flows.  
+
+<p class="callout success">
+<table border="1">
+ <tr><th><td>Term</td><td>Definition</td></th></tr>
+<tr><td><strong>pod</strong></td><td>To do</td>/tr>
+ <tr><td><strong>index</strong></td><td>To do</td>/tr>  
+<tr><td><strong>query</strong></td><td>To do</td>/tr> 
+ <tr><td><strong>flow</strong></td><td>To do</td>/tr> 
+
+</table>
+
+Here is an example pattern:
 
 ```
 !CompoundIndexer
@@ -25,10 +36,14 @@ components:
       name: kvIndexer  # a customized name
 metas:
   name: complete indexer
-`
+```
  
-This type of constructon will acts as an single `indexer` and will allow to seamlessly `query` this index with the `embedding` vector coming
-from any upstream `encoder` and obtain in the response message of the pod the corresponding `binary` information stored in
-the key-value index. This lets the `VectorIndexer` be responsible for obtain the most relevant documents by finding similarities
-in the `embedding` space while targeting the `key-value` database to extract the meaningful data and fields from those relevant documents.
+
+This constructor will act as an single `indexer`. Some points to note:
+
+* It will let you and `query` this (which?) index.  
+* The `embedding` vector can coming from any upstream `encoder`.
+* The response message of the pod the corresponding `binary` information is stored inthe key-value index. 
+
+This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (useful?  relevnt?) data and fields from those documents.
 
