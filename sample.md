@@ -1,8 +1,8 @@
 ### Common designs patterns
-jina is a really flexible AI powered neural search frameworks. It is designed to enable any pattern that can be framed as  
-a neural search problem.
+jina is a flexible AI powered neural search framework. It is designed to enable any pattern that can be framed as a neural search problem.
+
 However, there are basic basic common patterns that show when developping search solutions with jina and here is a recopilation of some of them below for your detailed reference when building a neural search with JINA.
-<\p>
+
 
 - CompoundIndexer (Vector + KV Indexers):
 
@@ -26,7 +26,7 @@ components:
 metas:
   name: complete indexer
 `
-
+ 
 This type of constructon will acts as an single `indexer` and will allow to seamlessly `query` this index with the `embedding` vector coming
 from any upstream `encoder` and obtain in the response message of the pod the corresponding `binary` information stored in
 the key-value index. This lets the `VectorIndexer` be responsible for obtain the most relevant documents by finding similarities
