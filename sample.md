@@ -1,19 +1,19 @@
 # Common designs patterns
-jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (To do:  define **pattern**.)
+jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. A **pattern** is To Do.)
 
-There are basic basic common patterns that show when developing search solutions with jina. Here is a list of some of them.
+There are patterns that are common to all searches. Here are some of them.
 
-
-- CompoundIndexer (Vector + KV Indexers):
+## CompoundIndexer (Vector + KV Indexers):
 
 To develop neural search applications, you can use a `CompoundIndexer` in same `Pod` for both `index` and `query` flows.  
 
  | Term | Definition |
 | ----------- | ----------- |
-| pod | To do |
-| index | To do |
-| query | To do |
-| flow | To do |
+| pattern | To Do |
+| pod | To Do |
+| index | To Do |
+| query | To Do |
+| flow | To Do |
 
  
  
