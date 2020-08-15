@@ -38,7 +38,7 @@ metas:
 ```
  
 
-This constructor acts as an single `indexer`. 
+This constructor acts as a single `indexer`. 
 
 Some items to note:
 
