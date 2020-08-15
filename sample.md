@@ -1,5 +1,5 @@
 # Common designs patterns
-jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (Definition: a **pattern** is YAML document defines the parameters of a neural search.)
+jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (Definition: a **pattern** is YAML document that defines the parameters of a neural search.)
 
 There are basic patterns that are common to all searches. Below are some of them.
 
