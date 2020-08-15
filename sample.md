@@ -8,34 +8,14 @@ There are basic basic common patterns that show when developing search solutions
 
 To develop neural search applications, you can use a `CompoundIndexer` in same `Pod` for both `index` and `query` flows.  
 
+ | Term | Definition |
+| ----------- | ----------- |
+| pod | To do |
+| index | To do |
+| query | To do |
+| flow | To do |
+
  
-<table border="1">
-  <tr>
-    <th colspan="2">Definitions</th>
-  </tr>
-     <tr>
-       <td>Term</td>
-       <td>Definition</td>
-     </tr>
-     <tr>
-       <td><strong>pod</strong></td>
-       <td>To do</td>
-      
-     <tr>
-      <td><strong>index</strong></td>
-      <td>To do</td>
-     </tr> 
-     
-     <tr>
-     <td><strong>query</strong></td>
-      <td>To do</td>
-      </tr>  
-     
-     <tr>
-     <td><strong>flow</strong>
-     </td><td>To do</td>
-     </tr> 
-</table>
  
 
 Here is an example pattern:
