@@ -1,7 +1,7 @@
 # Common designs patterns
-jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (Definition: a **pattern** is YAML document that give the parameters of a neural search.)
+jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (Definition: a **pattern** is YAML document defines the parameters of a neural search.)
 
-There are basic patterns that are common to all searches. Here are some of them.
+There are basic patterns that are common to all searches. Below are some of them.
 
 
 ## CompoundIndexer (Vector + KV Indexers) 
@@ -44,5 +44,5 @@ Some items to note:
 
 * This pattern will let you `query` this (which?) index.  
 * The `embedding` vector can come from any upstream `encoder`.
-* The corresponding `binary` pod response message is stored in a key-value index. This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields.
+* The corresponding `binary` pod response message is stored in a key-value index. This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this by finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **corresponding**?  **relevant**?) data and fields.
 
