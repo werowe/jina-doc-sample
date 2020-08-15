@@ -5,7 +5,7 @@ There are basic patterns that are common to all searches. Here are some of them.
 
 ## CompoundIndexer (Vector + KV Indexers) 
 
-To develop neural search applications, you can use a `CompoundIndexer` in same `Pod` for both `index` and `query` flows.  
+Here we use a `CompoundIndexer`.  We use it in same `Pod` for both `index` and `query` flows.  
 
  | Term | Definition |
 | ----------- | ----------- |
@@ -17,8 +17,6 @@ To develop neural search applications, you can use a `CompoundIndexer` in same `
 
  
  
-
-Here is an example pattern:
 
 ```yaml
 !CompoundIndexer
@@ -41,9 +39,9 @@ metas:
 
 This constructor acts as an single `indexer`. 
 
-Some points to note:
+Some itemd to note:
 
 * This will let you `query` this (which?) index.  
 * The `embedding` vector can come from any upstream `encoder`.
-* The corresponding `binary` pod response message of corresponding is stored in the key-value index. This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields.
+* The corresponding `binary` pod response message is stored in a key-value index. This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields.
 
