@@ -19,6 +19,7 @@ To develop neural search applications, you can use a `CompoundIndexer` in same `
      <tr><td><strong>query</strong></td><td>To do</td>/tr> 
      <tr><td><strong>flow</strong></td><td>To do</td>/tr> 
 </table>
+</p>
 
 Here is an example pattern:
 
