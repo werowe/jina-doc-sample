@@ -1,4 +1,4 @@
-### Common designs patterns
+# Common designs patterns
 jina is an AI-powered neural search framework. It lets you frame any pattern as a neural search problem. (To do:  define **pattern**.)
 
 There are basic basic common patterns that show when developing search solutions with jina. Here is a list of some of them.
@@ -10,12 +10,14 @@ To develop neural search applications, you can use a `CompoundIndexer` in same `
 
 <p class="callout success">
 <table border="1">
- <tr><th><td>Term</td><td>Definition</td></th></tr>
-<tr><td><strong>pod</strong></td><td>To do</td>/tr>
- <tr><td><strong>index</strong></td><td>To do</td>/tr>  
-<tr><td><strong>query</strong></td><td>To do</td>/tr> 
- <tr><td><strong>flow</strong></td><td>To do</td>/tr> 
-
+  <tr>
+    <th colspan="2">Definitions</th>
+  </tr>
+     <tr> <td>Term</td><td>Definition</td></tr>
+     <tr><td><strong>pod</strong></td><td>To do</td>/tr>
+     <tr><td><strong>index</strong></td><td>To do</td>/tr>  
+     <tr><td><strong>query</strong></td><td>To do</td>/tr> 
+     <tr><td><strong>flow</strong></td><td>To do</td>/tr> 
 </table>
 
 Here is an example pattern:
