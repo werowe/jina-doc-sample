@@ -3,6 +3,8 @@ jina is an AI-powered neural search framework. It lets you frame any pattern as 
 
 There are basic patterns that are common to all searches. Here are some of them.
 
+<p class="callout info">A success message</p>
+
 ## CompoundIndexer (Vector + KV Indexers) 
 
 Here we use a `CompoundIndexer`.  We use it in same `Pod` for both `index` and `query` flows.  
