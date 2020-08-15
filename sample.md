@@ -39,11 +39,11 @@ metas:
 ```
  
 
-This constructor will act as an single `indexer`. Some points to note:
+This constructor acts as an single `indexer`. 
+
+Some points to note:
 
 * This will let you `query` this (which?) index.  
 * The `embedding` vector can come from any upstream `encoder`.
-* The corresponding pod response message of corresponding `binary` information is stored in the key-value index. 
-
-This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields.
+* The corresponding `binary` pod response message of corresponding is stored in the key-value index. This lets the `VectorIndexer` be responsible for obtaining the most relevant documents.  It does this bying finding similarities in the `embedding` space while targeting the `key-value` database to extract meaningful (need better word **useful**?  **relevant**?) data and fields.
 
